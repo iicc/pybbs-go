@@ -14,15 +14,17 @@
 - [github.com/russross/blackfriday](https://github.com/russross/blackfriday)
 - [github.com/sluu99/uuid](https://github.com/sluu99/uuid)
 - [github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
+- [golang.org/x/crypto/bcrypt](https://golang.org/x/crypto/bcrypt)
 
 ## 其他版本
 
-- Java版朋也社区: [https://bbs.tomoya.cn](https://bbs.tomoya.cn)
+- Java版朋也社区: [https://yiiu.co](https://yiiu.co)
 
 ## 如何开始
 
 - 克隆代码到 $GOPATH/src 下
-- 安装上面的依赖
+- 安装 `govendor` 包管理器 `go get -u -v github.com/kardianos/govendor`
+- 运行命令 `govendor sync` 安装依赖
 - 安装 [bee](https://github.com/beego/bee) 工具
 - 在mysql数据库里创建数据库名字叫pybbs-go
 - 进入 pybbs-go 目录
@@ -46,9 +48,8 @@
 
 ## 碰到问题怎么办?
 
-1. 到 https://bbs.tomoya.cn 上提问答
-2. 在Github上提 Issues
-3. 加QQ群：419343003
+- 到 [开发俱乐部](https://17dev.club/) 上提问答
+- 在Github上提 Issue
 
 提问题的时候请将问题重现步骤描述清楚
 
@@ -56,7 +57,7 @@
 
 欢迎大家提pr
 
-感谢 [@mikemouse2016](https://github.com/mikemouse2016) 的贡献，有需要装程序里的sql语句都改成orm实现的话，可以参见 [issues](https://github.com/tomoya92/pybbs-go/issues/2)
+感谢 [@mikemouse2016](https://github.com/mikemouse2016) 的贡献，有需要装程序里的sql语句都改成orm实现的话，可以参见 [issue](https://github.com/tomoya92/pybbs-go/issues/2)
 
 ## 捐赠
 
